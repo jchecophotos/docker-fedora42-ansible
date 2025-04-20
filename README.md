@@ -1,6 +1,6 @@
 # Fedora 42 Ansible Test Image
 
-[![Build](https://github.com/geerlingguy/docker-fedora42-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-fedora42-ansible/actions/workflows/build.yml) [![Docker pulls](https://img.shields.io/docker/pulls/geerlingguy/docker-fedora42-ansible)](https://hub.docker.com/r/geerlingguy/docker-fedora42-ansible/)
+[![Build](https://github.com/jchecophotos/docker-fedora42-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/jchecophotos/docker-fedora42-ansible/actions/workflows/build.yml) [![Docker pulls](https://img.shields.io/docker/pulls/jpacheco87/docker-fedora42-ansible)](https://hub.docker.com/r/jpacheco87/docker-fedora42-ansible/)
 
 Fedora 42 Docker container for Ansible playbook and role testing.
 
