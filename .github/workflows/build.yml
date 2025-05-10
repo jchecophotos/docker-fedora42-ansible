@@ -13,7 +13,7 @@ jobs:
   # Test the image builds and works correctly.
   test:
     name: Test
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v2
@@ -33,7 +33,7 @@ jobs:
   # If on master branch, build and release image.
   release:
     name: Release
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: test
     if: github.ref == 'refs/heads/master'
 
